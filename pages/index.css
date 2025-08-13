@@ -38,9 +38,13 @@
 
 .header__span-accent {
   display: block;
-  font-style: italic;
   color: #3f96f3;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: -0.6px;
 }
 
 .header__description {
@@ -92,17 +96,6 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-}
-
-.span__accent {
-  font-size: 60px;
-  color: #3f96f3;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: -0.6px;
 }
 
 .header__footer {
