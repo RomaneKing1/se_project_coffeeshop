@@ -7,17 +7,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Shop</title>
-
     <meta name="description" content=" this coffee shop offers it all" />
     <meta name="author" content="Romane King" />
     <meta name="keywords" content="coffee, shop, studio" />
-
     <link rel="stylesheet" href="vendor/normalize.css" />
-
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
@@ -25,7 +21,6 @@
       <header class="header">
         <nav class="nav">
           <img src="../images/logo_coffeeshop_dark.svg" alt="nav__logo" />
-
           <ul class="nav__links">
             <li><a class="nav__link" href="#recipes">Recipes</a></li>
             <li><a class="nav__link" href="#reservation">Book A Table</a></li>
@@ -38,17 +33,14 @@
           src="../images/inside_coffee_shop.png"
           alt="inside coffee shop"
         />
-
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span>
-          in the Triple Peaks Library
+          <span class="header__span-accent">Specialty coffee</span> in the
+          Triple Peaks Library
         </h1>
-
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
         </p>
-
         <div class="header__footer">
           <div>
             <p class="header__paragraph">Hours:</p>
@@ -60,16 +52,13 @@
           </p>
         </div>
       </header>
-
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
-
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience
           </p>
-
           <ul class="recipes__videos">
             <li>
               <iframe
@@ -84,7 +73,6 @@
                 <span> recipe</span><span>~5 min</span>
               </p>
             </li>
-
             <li>
               <iframe
                 class="recipes__iframe"
@@ -94,76 +82,67 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-
               <p class="recipes__video-caption">
                 <span>French Press Recipe</span><span>~15 min</span>
               </p>
             </li>
           </ul>
         </section>
-        <section class="reservation" id="reservation"></section>
-        <h2 class="reservation__title">Book A Table</h2>
-        <form class="reservation__form form">
-          <fieldset class="form__fieldset">
-            <label for="name-input" class="form__label">
-              Name*
-              <input
-                class="form__input form__input_name_input"
-                id="name-input"
-                type="text"
-                placeholder="Name Surname"
-                required
-              />
+        <section class="reservation" id="reservation">
+          <section class="reservation__title">Book A Table</section>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name*
+                <input
+                  class="form__input form__input_name_input"
+                  id="name-input"
+                  type="text"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="name-input" class="form__label">
+                Number Of Guests*
+                <input
+                  class="form__input"
+                  id="name-input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                />
+              </label>
+              <label for="name-input" class="form__label">
+                Date And Time*
+                <input
+                  class="form__input"
+                  id="name-input"
+                  type="datetime-local"
+                  required
+                />
+              </label>
+              <label for="name-input" class="form__label">
+                Your Email*
+                <input
+                  class="form__input"
+                  id="name-input"
+                  type="email"
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Book A Table</button>
+            <label for="" class="form__label form__label_type_checkbox">
+              <input class="form__checkbox" type="checkbox" /> I agree with the
+              terms of use
             </label>
-
-            <label for="name-input" class="form__label">
-              Number Of Guests*
-              <input
-                class="form__input"
-                id="name-input"
-                type="number"
-                min="1"
-                max="8"
-                placeholder="1-8"
-              />
-            </label>
-
-            <label for="name-input" class="form__label">
-              Date And Time*
-              <input
-                class="form__input"
-                id="name-input"
-                type="datetime-local"
-                required
-              />
-            </label>
-
-            <label for="name-input" class="form__label">
-              Your Email*
-              <input
-                class="form__input"
-                id="name-input"
-                type="email"
-                placeholder="email@email.com"
-              />
-            </label>
-          </fieldset>
-
-          <button class="form__button">Book A Table</button>
-
-          <label for="" class="form__label form__label_type_checkbox">
-            <input class="form__checkbox" type="checkbox" />
-            I agree with the terms of use
-          </label>
-        </form>
-
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
       </main>
-
       <footer class="footer"></footer>
-
-      />
     </div>
   </body>
 </html>
