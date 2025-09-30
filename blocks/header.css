@@ -9,7 +9,7 @@
 
 .header__image {
   position: absolute;
-  z-index: -1
+
   width: 646px;
   height: 568px;
   top: 124px;
@@ -50,7 +50,7 @@
 
 .header__paragraph {
   margin: 0px;
-  
+
   font-style: normal;
   font-family: "Inter" "Arial" "sans-serif";
   font-weight: 500;
