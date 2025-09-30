@@ -16,7 +16,7 @@
   color: #000;
 }
 
-.form__input form__input_name_input {
+.form__input.form__input_name_input {
   color: #838383;
 }
 
